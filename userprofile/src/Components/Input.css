@@ -1,0 +1,31 @@
+*{
+    background-color: black;
+    color:#ff0000;
+}
+
+
+.form-group{
+    width: 300px;
+    padding-left: 100px;
+}
+
+.button{
+    margin-left: 100px;
+}
+#print{
+    visibility: hidden;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    font-family: Century Gothic;
+    font-size: 40px;
+    margin:100px;
+    top: 50px;
+    left: 300px;
+
+}
+#form{
+    border: 1px solid white;
+    margin:50px;
+    padding:100px;
+}
