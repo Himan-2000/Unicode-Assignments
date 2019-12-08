@@ -1,0 +1,26 @@
+.top
+{
+    margin: 0;
+    background-color: black;
+    height: 300px;
+    font-family: Century Gothic;
+    color: red;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    font-style: initial;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.profilepic{
+    margin-left: 20px;
+    height:250px;
+    width: 250px;
+    float: left;
+    border: 1px solid white;
+    border-radius: 300px;
+    padding: 10px;
+    
+}

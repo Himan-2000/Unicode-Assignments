@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="todolist.css">
+</head>
+<body>
+	<div id="main" class="header">
+		<h1>Daily Todo list</h1>
+	<form>
+		<input type="text" id="newInput" placeholder="What Do You Want To Do?....">
+		<button type="button" onclick="addElement()" class="addButton">ADD</button>
+	</form>
+	</div>
+	<ul id="todoList" class="list-group">
+		<li class="list-group-item" >Ask for concession in college<button class="delButton"> X </button></li>
+		<li class="list-group-item">Make train pass<button class="delButton" > X </button></li>
+		<li class="list-group-item">Search for React Js Sources<button class="delButton"> X </button>s</li>
+		<li class="list-group-item">Learn Javascript<button class="delButton"> X </button></li>
+		<li class="list-group-item">Think about java miniproject<button class="delButton" > X </button></li>
+	</ul>
+		<script src="todolist.js"></script>
+</body>
+</html>
